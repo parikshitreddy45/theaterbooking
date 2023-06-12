@@ -1,0 +1,115 @@
+//page 1:
+1."List of cities"(telangana,maharastra,Tamil Nadu,delhi)
+2.list of quick search
+
+//page 2:
+1."theatre" in  with respect to states
+
+//page 3:
+1."movies "in theatres of each states
+
+//page 4:
+1."shows "in each theatres with time
+2.seats(regular,balcony, premium[sofa])
+
+
+//
+1.can movies be same in all theatres?
+2.show id should be unique?
+3.each json file should link with a unique id?
+
+///////missed:
+  <div class="fnav2">
+                <a class="fright" href="#Home">Home</a>
+                <a class="fright" href="#Movies">Movies</a>
+                <a class="fright" href="#Events">Events</a>
+                <a class="fright" href="#Sports">Sports</a>
+        </div>
+         margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 35px
+    ///
+          <label for="loc" class="loc2">Location:</label> 
+                <select name="location" id="loc">
+                <option value="">-SELECT STATE-</option>
+                  <option value="Hyderabad">Telangana</option>
+                  <option value="Mumbai">Maharastra</option>
+                  <option value="chennai">Tamil Nadu</option>
+                  <option value="Delhi">Delhi</option>
+                </select>
+
+//mongo cloud
+
+6yYW3XqfVo4bJyqU
+mongodb+srv://parikshitreddy:6yYW3XqfVo4bJyqU@cluster0.tnlzcyi.mongodb.net/?retryWrites=true&w=majority
+
+//update in mongodb
+
+update syntax:
+
+//// update
+db.user.updateOne(
+    {condition},
+    {
+        $set:{
+            data
+        }
+    }
+)
+
+1. update one :
+
+db.user.updateOne(
+    {"name":"Sunny"},
+    {
+        $set:{
+            "city":"banglore"
+        },
+    }
+)
+ 2.update one and add one:
+
+db.user.updateOne(
+    {"name":"Sunny"},
+    {
+        $set:{
+            "Email":"parikshitreddy@gmail.com",
+            "balmce":100
+        },
+    }
+)
+
+3.for remove we use "unset":
+
+db.user.updateOne(
+    {"name":"Sunny"},
+    {
+        $unset:{
+            "Email":"parikshitreddy@gmail.com",
+            "balmce":100
+        },
+    }
+)
+
+/// delete
+//remove all
+db.user.remove({})  //deletes all the records
+
+// to remove
+db.user.remove({"name":"Sunny"})  //deletes only a single record of that particular contion
+
+
+
+//post data in potman format(syntax)
+    {
+        "name": "Parikshit",
+        "email": "parikshit@gmail.com",
+        "phone": 9874668680,
+        "cost": 500,
+        "SelectedSeats": [
+            "A3",
+            "A4",
+            "A5"
+        ],
+        "status": "Booked"
+    }

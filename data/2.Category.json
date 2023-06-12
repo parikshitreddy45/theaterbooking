@@ -1,0 +1,130 @@
+[
+    {
+      "Theatre_id":1,
+      "Theatre-name":"Megha theatre(70mm)",
+      "location_name": "Near ganesh temple,Dilshuknagar ,Hyderabad",
+      "state_id": 1,
+      "state": "Telangana",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":2,
+      "Theatre-name":"Asian (70mm)",
+      "location_name": "Near Tagore Garden ,Hyderbad",
+      "state_id": 1,
+      "state": "Telangana",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":3,
+      "Theatre-name":"Sai Sudarshan(35mm)",
+      "location_name": "MGBS Phase 2, Hyderabad",
+      "state_id": 1,
+      "state": "Telangana",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":4,
+      "Theatre-name":"Indra-Nagendra (70mm)",
+      "location_name": "Kharmanghat near metro ,Hyderabad",
+      "state_id": 1,
+      "state": "Telangana",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":5,
+      "Theatre-name":"INOX Cinemas (35mm)",
+      "location_name": "Metro junction,Kalyan-East, mumbai,maharastra",
+      "state_id": 2,
+      "state": "Maharashtra",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":6,
+      "Theatre-name":"Carnival Cinemas (70mm)",
+      "location_name": "Chakala- anderi east, Mumbai,Maharastra",
+      "state_id": 2,
+      "state": "Maharashtra",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":7,
+      "Theatre-name":"Sai Asian Cinemas (35mm)",
+      "location_name": "Kothrud, Pune",
+      "state_id": 2,
+      "state": "Maharashtra",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":8,
+      "Theatre-name":"Golden Cinemas (70mm)",
+      "location_name": "Milan Subway Road Santacruz West,Mumbai",
+      "state_id": 2,
+      "state": "Maharashtra",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":9,
+      "Theatre-name":"Velco Cinema hall(40mm)",
+      "location_name": "Anakaputhur road,Chennai",
+      "state_id": 3,
+      "state": "Tamil Nadu",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":10,
+      "Theatre-name":"Mayajaal Cinemas (70mm)",
+      "location_name": "East Road 72,Kanathur, Chennai",
+      "state_id": 3,
+      "state": "Tamil Nadu",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":11,
+      "Theatre-name":"Vidya Cinemas (35mm)",
+      "location_name": "Kakan Streat,Tambaram, Chennai",
+      "state_id": 3,
+      "state": "Tamil Nadu",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":12,
+      "Theatre-name":"Ega Cinemas (70mm)",
+      "location_name": "Near Poonamelli high schoolAnakaputhur road,Chennai",
+      "state_id": 3,
+      "state": "Tamil Nadu",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":13,
+      "Theatre-name":"PVR (Opulent Mall)",
+      "location_name": "Opulent Mall 115,Grand Trunk Road,Model Town Ghaziabad, Delhi",
+      "state_id": 4,
+      "state": "Delhi",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":14,
+      "Theatre-name":"Wave Cinemas (45mm)",
+      "location_name": "TDI paragon Mall,Raja Garden, Delhi",
+      "state_id": 4,
+      "state": "Delhi",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":15,
+      "Theatre-name":"M Cinemas",
+      "location_name": "Plot Num-54,Community Center,East Of Kailash, Delhi",
+      "state_id": 4,
+      "state": "Delhi",
+      "country_name": "India"
+    },
+    {
+      "Theatre_id":16,
+      "Theatre-name":"Liberty Cinemas (70mm)",
+      "location_name": "plot num-19B,near bus stop,Karol Bagh, Delhi",
+      "state_id": 4,
+      "state": "Delhi",
+      "country_name": "India"
+    }
+  ]

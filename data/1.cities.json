@@ -1,0 +1,19 @@
+
+[
+    {
+        "state_id":1,
+        "state":"Hyderabad"
+    },
+    {
+        "state_id":2,
+        "state":"Maharashtra"
+    },
+    {
+        "state_id":3,
+        "state":"Tamil Nadu"
+    },
+    {
+        "state_id":4,
+        "state":"Delhi"
+    }
+]
