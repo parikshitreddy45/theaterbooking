@@ -1,15 +1,15 @@
 let mongo = require('mongodb');
 let {MongoClient} = require('mongodb');
-let mongoUrl = "mongodb://127.0.0.1:27017";
+//let mongoUrl = "mongodb://127.0.0.1:27017";
 //const uri="mongodb+srv://parikshitreddy:6yYW3XqfVo4bJyqU@cluster0.tnlzcyi.mongodb.net/?retryWrites=true&w=majority"
-"mongodb+srv://parikshitreddy5915:uqkNLlJ1nSaM2GHn@cluster0.tnlzcyi.mongodb.net/?retryWrites=true&w=majority"
+var mongoUrl="mongodb+srv://parikshitreddy5915:uqkNLlJ1nSaM2GHn@cluster0.tnlzcyi.mongodb.net/?retryWrites=true&w=majority"
 let client = new MongoClient(mongoUrl)
 
 async function dbConnect(){
     await client.connect()
 }
 
-let db = client.db('bookmyshowdata');
+let db = client.db('bookmyshow');
 
 async function getData(colName,query){
     let output = [];
