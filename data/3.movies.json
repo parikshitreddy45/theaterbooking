@@ -6,7 +6,7 @@
         "Description":"About Mythology",
         "Genre":"Drama/Action",
         "Director":"Rishabh Shetty",
-        "Movie_img":"https://ibb.co/brKs2H1/Kantara.jpg"
+        "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png"
     },
     {
         "Movie_id":2,
@@ -15,7 +15,7 @@
         "Description":"About rama",
         "Genre":"Action/fantasy",
         "Director":"Om Raut",
-        "Movie_img":"https://ibb.co/6b5n43K/Adipurush.jpg"
+        "Movie_img":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png"
     },
     {
         "Movie_id":3,
@@ -24,7 +24,7 @@
         "Description":"About story of king Bahubali and his legacy",
         "Genre":"Adventure/Action",
         "Director":"S.S Rajamouli",  
-        "Movie_img":"https://ibb.co/n3nTm6k/Bahubali-2.jpg"
+        "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png"
     },
     {
         "Movie_id":4,
@@ -33,7 +33,7 @@
         "Description":"About army forces and thier missions",
         "Genre":"Thriller/Action",
         "Director":"Siddharth Anand",
-        "Movie_img":"https://ibb.co/LvZ7F6V/Pathan.jpg"
+        "Movie_img":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png"
     },
     {
         "Movie_id":5,
@@ -42,7 +42,7 @@
         "Description":"About a family and story",
         "Genre":"Suspense drama",
         "Director":"Abhishekh Pathak",
-        "Movie_img":"https://ibb.co/S0VyNb3/Dhrishyam-2.jpg"
+        "Movie_img":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png"
     },
     {
         "Movie_id":6,
@@ -51,7 +51,7 @@
         "Description":"Based on Marvel Comic",
         "Genre":"Action/Adventure",
         "Director":"Ryan Coogler",
-        "Movie_img":"https://ibb.co/VWRPx7T/Wakanda-Forever.jpg"
+        "Movie_img":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png"
     },
     {
         "Movie_id":7,
@@ -60,7 +60,7 @@
         "Description":"About life and story of Pushpa",
         "Genre":"Drama/Action",
         "Director":"Sukumar",
-        "Movie_img":"https://ibb.co/nsxFJ1S/Pushpa-2.jpg"
+        "Movie_img":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png"
     },
     {
         "Movie_id":8,
@@ -69,7 +69,7 @@
         "Description":"About Mythology",
         "Genre":"Fantasy/Action",
         "Director":"Ayan Mukherji",
-        "Movie_img":"https://ibb.co/mDj2zN3/Brahmastra.jpg"
+        "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png"
     },
     {
         "Movie_id":9,
@@ -78,7 +78,7 @@
         "Description":"About Mythology",
         "Genre":"Drama/Action",
         "Director":"Rishabh Shetty",
-        "Movie_img":"https://ibb.co/brKs2H1/Kantara.jpg"
+        "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png"
     },
     {
         "Movie_id":10,
@@ -87,7 +87,7 @@
         "Description":"About rama",
         "Genre":"Action/fantasy",
         "Director":"Om Raut",
-        "Movie_img":"https://ibb.co/6b5n43K/Adipurush.jpg"
+        "Movie_img":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png"
     },
     {
         "Movie_id":11,
@@ -96,7 +96,7 @@
         "Description":"About story of king Bahubali and his legacy",
         "Genre":"Adventure/Action",
         "Director":"S.S Rajamouli",
-        "Movie_img":"https://ibb.co/n3nTm6k/Bahubali-2.jpg"  
+        "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png"  
     },
     {
         "Movie_id":12,
@@ -105,7 +105,7 @@
         "Description":"About army forces and thier missions",
         "Genre":"Thriller/Action",
         "Director":"Siddharth Anand",
-        "Movie_img":"https://ibb.co/LvZ7F6V/Pathan.jpg"
+        "Movie_img":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png"
     },
     {
         "Movie_id":13,
@@ -114,7 +114,7 @@
         "Description":"About a family and story",
         "Genre":"Suspense drama",
         "Director":"Abhishekh Pathak",
-        "Movie_img":"https://ibb.co/S0VyNb3/Dhrishyam-2.jpg"
+        "Movie_img":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png"
     },
     {
         "Movie_id":14,
@@ -123,7 +123,7 @@
         "Description":"Based on Marvel Comic",
         "Genre":"Action/Adventure",
         "Director":"Ryan Coogler",
-        "Movie_img":"https://ibb.co/VWRPx7T/Wakanda-Forever.jpg"
+        "Movie_img":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png"
     },
     {
         "Movie_id":15,
@@ -132,7 +132,7 @@
         "Description":"About life and story of Pushpa",
         "Genre":"Drama/Action",
         "Director":"Sukumar",
-        "Movie_img":"https://ibb.co/nsxFJ1S/Pushpa-2.jpg"
+        "Movie_img":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png"
     },
     {
         "Movie_id":16,
@@ -141,7 +141,7 @@
         "Description":"About Mythology",
         "Genre":"Fantasy/Action",
         "Director":"Ayan Mukherji",
-        "Movie_img":"https://ibb.co/mDj2zN3/Brahmastra.jpg"
+        "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png"
     },
     {
         "Movie_id":17,
@@ -149,7 +149,8 @@
         "Theatre_id":9,
         "Description":"About Mythology",
         "Genre":"Drama/Action",
-        "Director":"Rishabh Shetty"
+        "Director":"Rishabh Shetty",
+        "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png"
     },
     {
         "Movie_id":18,
@@ -158,7 +159,7 @@
         "Description":"About rama",
         "Genre":"Action/fantasy",
         "Director":"Om Raut",
-        "Movie_img":"https://ibb.co/6b5n43K/Adipurush.jpg"
+        "Movie_img":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png"
     },
     {
         "Movie_id":19,
@@ -167,7 +168,7 @@
         "Description":"About story of king Bahubali and his legacy",
         "Genre":"Adventure/Action",
         "Director":"S.S Rajamouli",
-        "Movie_img":"https://ibb.co/n3nTm6k/Bahubali-2.jpg"  
+        "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png"  
     },
     {
         "Movie_id":20,
@@ -176,7 +177,7 @@
         "Description":"About army forces and thier missions",
         "Genre":"Thriller/Action",
         "Director":"Siddharth Anand",
-        "Movie_img":"https://ibb.co/LvZ7F6V/Pathan.jpg"
+        "Movie_img":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png"
     },
     {
         "Movie_id":21,
@@ -185,7 +186,7 @@
         "Description":"About a family and story",
         "Genre":"Suspense drama",
         "Director":"Abhishekh Pathak",
-        "Movie_img":"https://ibb.co/S0VyNb3/Dhrishyam-2.jpg"
+        "Movie_img":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png"
     },
     {
         "Movie_id":22,
@@ -194,7 +195,7 @@
         "Description":"Based on Marvel Comic",
         "Genre":"Action/Adventure",
         "Director":"Ryan Coogler",
-        "Movie_img":"https://ibb.co/VWRPx7T/Wakanda-Forever.jpg"
+        "Movie_img":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png"
     },
     {
         "Movie_id":23,
@@ -203,7 +204,7 @@
         "Description":"About life and story of Pushpa",
         "Genre":"Drama/Action",
         "Director":"Sukumar",
-        "Movie_img":"https://ibb.co/nsxFJ1S/Pushpa-2.jpg"
+        "Movie_img":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png"
     },
     {
         "Movie_id":24,
@@ -212,7 +213,7 @@
         "Description":"About Mythology",
         "Genre":"Fantasy/Action",
         "Director":"Ayan Mukherji",
-        "Movie_img":"https://ibb.co/mDj2zN3/Brahmastra.jpg"
+        "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png"
     },
     {
         "Movie_id":25,
@@ -221,7 +222,7 @@
         "Description":"About Mythology",
         "Genre":"Drama/Action",
         "Director":"Rishabh Shetty",
-        "Movie_img":"https://ibb.co/brKs2H1/Kantara.jpg"
+        "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png"
     },
     {
         "Movie_id":26,
@@ -230,7 +231,7 @@
         "Description":"About rama",
         "Genre":"Action/fantasy",
         "Director":"Om Raut",
-        "Movie_img":"https://ibb.co/6b5n43K/Adipurush.jpg"
+        "Movie_img":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png"
     },
     {
         "Movie_id":27,
@@ -239,7 +240,7 @@
         "Description":"About story of king Bahubali and his legacy",
         "Genre":"Adventure/Action",
         "Director":"S.S Rajamouli",
-        "Movie_img":"https://ibb.co/n3nTm6k/Bahubali-2.jpg"  
+        "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png"  
     },
     {
         "Movie_id":28,
@@ -248,7 +249,7 @@
         "Description":"About army forces and thier missions",
         "Genre":"Thriller/Action",
         "Director":"Siddharth Anand",
-        "Movie_img":"https://ibb.co/LvZ7F6V/Pathan.jpg"
+        "Movie_img":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png"
     },
     {
         "Movie_id":29,
@@ -257,7 +258,7 @@
         "Description":"About a family and story",
         "Genre":"Suspense drama",
         "Director":"Abhishekh Pathak",
-        "Movie_img":"https://ibb.co/S0VyNb3/Dhrishyam-2.jpg"
+        "Movie_img":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png"
     },
     {
         "Movie_id":30,
@@ -266,7 +267,7 @@
         "Description":"Based on Marvel Comic",
         "Genre":"Action/Adventure",
         "Director":"Ryan Coogler",
-        "Movie_img":"https://ibb.co/VWRPx7T/Wakanda-Forever.jpg"
+        "Movie_img":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png"
     },
     {
         "Movie_id":31,
@@ -275,7 +276,7 @@
         "Description":"About life and story of Pushpa",
         "Genre":"Drama/Action",
         "Director":"Sukumar",
-        "Movie_img":"https://ibb.co/nsxFJ1S/Pushpa-2.jpg"
+        "Movie_img":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png"
     },
     {
         "Movie_id":32,
@@ -284,6 +285,6 @@
         "Description":"About Mythology",
         "Genre":"Fantasy/Action",
         "Director":"Ayan Mukherji",
-        "Movie_img":"https://ibb.co/mDj2zN3/Brahmastra.jpg"
+        "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png"
     }
 ]

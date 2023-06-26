@@ -1,0 +1,39 @@
+body{
+    background-color:white;
+}
+#QuickSearch{
+    display: inline-block;
+    width: 80%;
+    /* background-color: brown; */
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.QuickHeading{
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 2%;
+}
+.Titlecontainer{
+    height: 250px;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    float: left;
+}
+.Titlecontainer img{
+    height: 250px;
+    width: 205px;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px rgb(61, 60, 60);
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+    border: none;
+}

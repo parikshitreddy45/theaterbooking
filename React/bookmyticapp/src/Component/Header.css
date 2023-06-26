@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family: 'Mulish',sans-serif;
+}
+.fnav{
+    display:flex;
+    justify-content:center;
+    justify-content: space-around;
+    padding: 2px;
+    background-color: rgb(42,42,68);
+}
+.fnav.left{
+    display: flex;
+    margin-top: 10px;
+}
+.fnav.right{
+    display: flex;
+    margin-right: 16px;
+}
+.right button{
+    margin-inline:22px;
+    width:80px;
+    height:27px;
+    border:none;
+    border-radius: 2px;
+    background-color:rgb(244,69,98);
+    color:white;
+}
+.right i{
+    margin-inline:22px;
+    font-size: 22px;
+}
+.fright{
+    text-decoration: none;
+    font-size: 18px;
+    padding:8px;
+    margin-top: 26px;
+    color: white;
+    padding-top: 14px;
+}
+.name{
+    font-size: 35px;
+    color:white;
+}
