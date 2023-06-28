@@ -26,7 +26,7 @@ body{
     margin-bottom: 3%;
     float: left;
 }
-.Titlecontainer img{
+.tileComponent1 img{
     height: 250px;
     width: 205px;
     -moz-box-shadow: 10px 10px 5px #ccc;

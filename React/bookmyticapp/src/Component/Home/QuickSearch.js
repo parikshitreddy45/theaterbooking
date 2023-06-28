@@ -1,30 +1,3 @@
-// import React ,{useState,useEffect} from 'react';
-// import './QuickSearch.css';
-// import QuickDisplay from './QuickDisplay';
-// const base_url ="https://bookmytic.onrender.com";
-
-// const QuickSearch =() =>{
-//    const [movieType,setMovieType]= useState();
-
-//     useEffect(()=>{
-//       fetch(`${base_url}/movies`,{method:'GET'})
-//       .then((res)=>res.json())
-//       .then((data)=>{
-//             setMovieType(data)
-//       })
-//     },[])
-
-//      return (
-//         <>
-//           <div id="QuickSearch">
-//             <p class="QuickHeading">RECOMMENDED MOVIES</p>
-//             <QuickDisplay movieData={movieType}/>
-
-//           </div>
-//         </>
-//      )
-// }
-
 import React,{useState,useEffect} from 'react';
 import './QuickSearch.css';
 import QuickDisplay from './QuickDisplay'
