@@ -23,7 +23,7 @@
         "Theatre_id":2,
         "Description":"About story of king Bahubali and his legacy",
         "Genre":"Adventure/Action",
-        "Director":"S.S Rajamouli",  
+        "Director":"S.S Rajamouli",
         "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png"
     },
     {
@@ -72,7 +72,7 @@
         "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png"
     },
     {
-        "Movie_id":9,
+        "Movie_id":1,
         "Movie_Title":"Kantara",
         "Theatre_id":5,
         "Description":"About Mythology",
@@ -80,7 +80,7 @@
         "Director":"Rishabh Shetty"
     },
     {
-        "Movie_id":10,
+        "Movie_id":2,
         "Movie_Title":"Adipurush",
         "Theatre_id":5,
         "Description":"About rama",
@@ -88,7 +88,7 @@
         "Director":"Om Raut"
     },
     {
-        "Movie_id":11,
+        "Movie_id":3,
         "Movie_Title":"Bahubali-2",
         "Theatre_id":6,
         "Description":"About story of king Bahubali and his legacy",
@@ -96,7 +96,7 @@
         "Director":"S.S Rajamouli"  
     },
     {
-        "Movie_id":12,
+        "Movie_id":4,
         "Movie_Title":"Pathan",
         "Theatre_id":6,
         "Description":"About army forces and thier missions",
@@ -104,7 +104,7 @@
         "Director":"Siddharth Anand"
     },
     {
-        "Movie_id":13,
+        "Movie_id":5,
         "Movie_Title":"Dhrishyam-2",
         "Theatre_id":7,
         "Description":"About a family and story",
@@ -112,7 +112,7 @@
         "Director":"Abhishekh Pathak"
     },
     {
-        "Movie_id":14,
+        "Movie_id":6,
         "Movie_Title":"Wakanda-Forever",
         "Theatre_id":7,
         "Description":"Based on Marvel Comic",
@@ -120,7 +120,7 @@
         "Director":"Ryan Coogler"
     },
     {
-        "Movie_id":15,
+        "Movie_id":7,
         "Movie_Title":"Pushpa-2",
         "Theatre_id":8,
         "Description":"About life and story of Pushpa",
@@ -128,7 +128,7 @@
         "Director":"Sukumar"
     },
     {
-        "Movie_id":16,
+        "Movie_id":8,
         "Movie_Title":"Brahmastra",
         "Theatre_id":8,
         "Description":"About Mythology",
@@ -136,7 +136,7 @@
         "Director":"Ayan Mukherji"
     },
     {
-        "Movie_id":17,
+        "Movie_id":1,
         "Movie_Title":"Kantara",
         "Theatre_id":9,
         "Description":"About Mythology",
@@ -144,7 +144,7 @@
         "Director":"Rishabh Shetty"
     },
     {
-        "Movie_id":18,
+        "Movie_id":2,
         "Movie_Title":"Adipurush",
         "Theatre_id":9,
         "Description":"About rama",
@@ -152,7 +152,7 @@
         "Director":"Om Raut"
     },
     {
-        "Movie_id":19,
+        "Movie_id":3,
         "Movie_Title":"Bahubali-2",
         "Theatre_id":10,
         "Description":"About story of king Bahubali and his legacy",
@@ -160,7 +160,7 @@
         "Director":"S.S Rajamouli"
     },
     {
-        "Movie_id":20,
+        "Movie_id":4,
         "Movie_Title":"Pathan",
         "Theatre_id":10,
         "Description":"About army forces and thier missions",
@@ -168,7 +168,7 @@
         "Director":"Siddharth Anand"
     },
     {
-        "Movie_id":21,
+        "Movie_id":5,
         "Movie_Title":"Dhrishyam-2",
         "Theatre_id":11,
         "Description":"About a family and story",
@@ -176,7 +176,7 @@
         "Director":"Abhishekh Pathak"
     },
     {
-        "Movie_id":22,
+        "Movie_id":6,
         "Movie_Title":"Wakanda-Forever",
         "Theatre_id":11,
         "Description":"Based on Marvel Comic",
@@ -184,7 +184,7 @@
         "Director":"Ryan Coogler"
     },
     {
-        "Movie_id":23,
+        "Movie_id":7,
         "Movie_Title":"Pushpa-2",
         "Theatre_id":12,
         "Description":"About life and story of Pushpa",
@@ -192,7 +192,7 @@
         "Director":"Sukumar"
     },
     {
-        "Movie_id":24,
+        "Movie_id":8,
         "Movie_Title":"Brahmastra",
         "Theatre_id":12,
         "Description":"About Mythology",
@@ -200,7 +200,7 @@
         "Director":"Ayan Mukherji"
     },
     {
-        "Movie_id":25,
+        "Movie_id":1,
         "Movie_Title":"Kantara",
         "Theatre_id":13,
         "Description":"About Mythology",
@@ -208,7 +208,7 @@
         "Director":"Rishabh Shetty"
     },
     {
-        "Movie_id":26,
+        "Movie_id":2,
         "Movie_Title":"Adipurush",
         "Theatre_id":13,
         "Description":"About rama",
@@ -216,7 +216,7 @@
         "Director":"Om Raut"
     },
     {
-        "Movie_id":27,
+        "Movie_id":3,
         "Movie_Title":"Bahubali-2",
         "Theatre_id":14,
         "Description":"About story of king Bahubali and his legacy",
@@ -224,7 +224,7 @@
         "Director":"S.S Rajamouli" 
     },
     {
-        "Movie_id":28,
+        "Movie_id":4,
         "Movie_Title":"Pathan",
         "Theatre_id":14,
         "Description":"About army forces and thier missions",
@@ -232,7 +232,7 @@
         "Director":"Siddharth Anand"
     },
     {
-        "Movie_id":29,
+        "Movie_id":5,
         "Movie_Title":"Dhrishyam-2",
         "Theatre_id":15,
         "Description":"About a family and story",
@@ -240,7 +240,7 @@
         "Director":"Abhishekh Pathak"
     },
     {
-        "Movie_id":30,
+        "Movie_id":6,
         "Movie_Title":"Wakanda-Forever",
         "Theatre_id":15,
         "Description":"Based on Marvel Comic",
@@ -248,7 +248,7 @@
         "Director":"Ryan Coogler"
     },
     {
-        "Movie_id":31,
+        "Movie_id":7,
         "Movie_Title":"Pushpa-2",
         "Theatre_id":16,
         "Description":"About life and story of Pushpa",
@@ -256,7 +256,7 @@
         "Director":"Sukumar"
     },
     {
-        "Movie_id":32,
+        "Movie_id":8,
         "Movie_Title":"Brahmastra",
         "Theatre_id":16,
         "Description":"About Mythology",
