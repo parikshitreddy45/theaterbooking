@@ -23,7 +23,7 @@ body{
     margin-top: 3%;
     margin-left: 4%;
     margin-bottom: 3%;
-    float: right;
+    float: left;
 }
 .tileComponent1 img{
     height: 250px;
