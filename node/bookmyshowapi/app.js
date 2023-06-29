@@ -50,6 +50,13 @@ app.get('/Category',async(req,res) => {
     res.send(output)
  })
 
+ app.get('/movieslist',async(req,res) => {
+    let query ={}
+    let collection="movielist"
+    let output = await getData(collection,query)
+    res.send(output)
+})
+
  app.get('/movieshows', async(req,res) => {
     let query = {}
    if(req.query.ShowId){
