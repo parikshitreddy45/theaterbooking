@@ -4,7 +4,6 @@ body{
 #QuickSearch{
     display: inline-block;
     width: 80%;
-    /* background-color: brown; */
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -24,7 +23,7 @@ body{
     margin-top: 3%;
     margin-left: 4%;
     margin-bottom: 3%;
-    float: left;
+    float: right;
 }
 .tileComponent1 img{
     height: 250px;
