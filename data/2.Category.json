@@ -5,7 +5,23 @@
       "location_name": "Near ganesh temple,Dilshuknagar ,Hyderabad",
       "state_id": 1,
       "state": "Telangana",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":1,
+          "Movie_Title":"Kantara",
+          "Description":"About Mythology",
+          "Genre":"Drama/Action",
+          "Director":"Rishabh Shetty"
+        },
+        {
+          "Movie_id":2,
+          "Movie_Title":"Adipurush",
+          "Description":"About rama",
+          "Genre":"Action/fantasy",
+          "Director":"Om Raut"  
+        }
+      ]
     },
     {
       "Theatre_id":2,
@@ -13,7 +29,23 @@
       "location_name": "Near Tagore Garden ,Hyderbad",
       "state_id": 1,
       "state": "Telangana",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":3,
+          "Movie_Title":"Bahubali-2",
+          "Description":"About story of king Bahubali and his legacy",
+          "Genre":"Adventure/Action",
+          "Director":"S.S Rajamouli"
+        },
+        {
+          "Movie_id":4,
+          "Movie_Title":"Pathan",
+          "Description":"About army forces and thier missions",
+          "Genre":"Thriller/Action",
+          "Director":"Siddharth Anand"
+        }
+      ]
     },
     {
       "Theatre_id":3,
@@ -21,7 +53,23 @@
       "location_name": "MGBS Phase 2, Hyderabad",
       "state_id": 1,
       "state": "Telangana",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":5,
+          "Movie_Title":"Dhrishyam-2",
+          "Description":"About a family and story",
+          "Genre":"Suspense drama",
+          "Director":"Abhishekh Pathak"
+        },
+        {
+          "Movie_id":6,
+          "Movie_Title":"Wakanda-Forever",
+          "Description":"Based on Marvel Comic",
+          "Genre":"Action/Adventure",
+          "Director":"Ryan Coogler"
+        }
+      ]
     },
     {
       "Theatre_id":4,
@@ -29,7 +77,23 @@
       "location_name": "Kharmanghat near metro ,Hyderabad",
       "state_id": 1,
       "state": "Telangana",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":7,
+          "Movie_Title":"Pushpa-2",
+          "Description":"About life and story of Pushpa",
+          "Genre":"Drama/Action",
+          "Director":"Sukumar"
+        },
+        {
+          "Movie_id":8,
+          "Movie_Title":"Brahmastra",
+          "Description":"About Mythology",
+          "Genre":"Fantasy/Action",
+          "Director":"Ayan Mukherji"
+        }
+      ]
     },
     {
       "Theatre_id":5,
@@ -37,7 +101,23 @@
       "location_name": "Metro junction,Kalyan-East, mumbai,maharastra",
       "state_id": 2,
       "state": "Maharashtra",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":1,
+          "Movie_Title":"Kantara",
+          "Description":"About Mythology",
+          "Genre":"Drama/Action",
+          "Director":"Rishabh Shetty"
+        },
+        {
+          "Movie_id":2,
+          "Movie_Title":"Adipurush",
+          "Description":"About rama",
+          "Genre":"Action/fantasy",
+          "Director":"Om Raut"
+        }
+      ]
     },
     {
       "Theatre_id":6,
@@ -45,7 +125,23 @@
       "location_name": "Chakala- anderi east, Mumbai,Maharastra",
       "state_id": 2,
       "state": "Maharashtra",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":3,
+          "Movie_Title":"Bahubali-2",
+          "Description":"About story of king Bahubali and his legacy",
+          "Genre":"Adventure/Action",
+          "Director":"S.S Rajamouli"
+        },
+        {
+          "Movie_id":4,
+          "Movie_Title":"Pathan",
+          "Description":"About army forces and thier missions",
+          "Genre":"Thriller/Action",
+          "Director":"Siddharth Anand"
+        }
+      ]
     },
     {
       "Theatre_id":7,
@@ -53,7 +149,23 @@
       "location_name": "Kothrud, Pune",
       "state_id": 2,
       "state": "Maharashtra",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":5,
+          "Movie_Title":"Dhrishyam-2",
+          "Description":"About a family and story",
+          "Genre":"Suspense drama",
+          "Director":"Abhishekh Pathak"
+        },
+        {
+          "Movie_id":6,
+          "Movie_Title":"Wakanda-Forever",
+          "Description":"Based on Marvel Comic",
+          "Genre":"Action/Adventure",
+          "Director":"Ryan Coogler"  
+        }
+      ]
     },
     {
       "Theatre_id":8,
@@ -61,7 +173,23 @@
       "location_name": "Milan Subway Road Santacruz West,Mumbai",
       "state_id": 2,
       "state": "Maharashtra",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":7,
+          "Movie_Title":"Pushpa-2",
+          "Description":"About life and story of Pushpa",
+          "Genre":"Drama/Action",
+          "Director":"Sukumar"
+        },
+        {
+          "Movie_id":8,
+          "Movie_Title":"Brahmastra",
+          "Description":"About Mythology",
+          "Genre":"Fantasy/Action",
+          "Director":"Ayan Mukherji" 
+        }
+      ]
     },
     {
       "Theatre_id":9,
@@ -69,7 +197,23 @@
       "location_name": "Anakaputhur road,Chennai",
       "state_id": 3,
       "state": "Tamil Nadu",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":1,
+          "Movie_Title":"Kantara",
+          "Description":"About Mythology",
+          "Genre":"Drama/Action",
+          "Director":"Rishabh Shetty"
+        },
+        {
+          "Movie_id":2,
+          "Movie_Title":"Adipurush",
+          "Description":"About rama",
+          "Genre":"Action/fantasy",
+          "Director":"Om Raut"  
+        }
+      ]
     },
     {
       "Theatre_id":10,
@@ -77,7 +221,23 @@
       "location_name": "East Road 72,Kanathur, Chennai",
       "state_id": 3,
       "state": "Tamil Nadu",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":3,
+          "Movie_Title":"Bahubali-2",
+          "Description":"About story of king Bahubali and his legacy",
+          "Genre":"Adventure/Action",
+          "Director":"S.S Rajamouli"
+        },
+        {
+          "Movie_id":4,
+          "Movie_Title":"Pathan",
+          "Description":"About army forces and thier missions",
+          "Genre":"Thriller/Action",
+          "Director":"Siddharth Anand"  
+        }
+      ]
     },
     {
       "Theatre_id":11,
@@ -85,7 +245,23 @@
       "location_name": "Kakan Streat,Tambaram, Chennai",
       "state_id": 3,
       "state": "Tamil Nadu",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":5,
+          "Movie_Title":"Dhrishyam-2",
+          "Description":"About a family and story",
+          "Genre":"Suspense drama",
+          "Director":"Abhishekh Pathak"
+        },
+        {
+          "Movie_id":6,
+          "Movie_Title":"Wakanda-Forever",
+          "Description":"Based on Marvel Comic",
+          "Genre":"Action/Adventure",
+          "Director":"Ryan Coogler" 
+        }
+      ]
     },
     {
       "Theatre_id":12,
@@ -93,7 +269,24 @@
       "location_name": "Near Poonamelli high schoolAnakaputhur road,Chennai",
       "state_id": 3,
       "state": "Tamil Nadu",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":7,
+          "Movie_Title":"Pushpa-2",
+          "Description":"About life and story of Pushpa",
+          "Genre":"Drama/Action",
+          "Director":"Sukumar"
+
+        },
+        {
+          "Movie_id":8,
+          "Movie_Title":"Brahmastra",
+          "Description":"About Mythology",
+          "Genre":"Fantasy/Action",
+          "Director":"Ayan Mukherji" 
+        }
+      ]
     },
     {
       "Theatre_id":13,
@@ -101,7 +294,23 @@
       "location_name": "Opulent Mall 115,Grand Trunk Road,Model Town Ghaziabad, Delhi",
       "state_id": 4,
       "state": "Delhi",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":1,
+          "Movie_Title":"Kantara",
+          "Description":"About Mythology",
+          "Genre":"Drama/Action",
+          "Director":"Rishabh Shetty"
+        },
+        {
+          "Movie_id":2,
+          "Movie_Title":"Adipurush",
+          "Description":"About rama",
+          "Genre":"Action/fantasy",
+          "Director":"Om Raut"
+        }
+      ]
     },
     {
       "Theatre_id":14,
@@ -109,7 +318,23 @@
       "location_name": "TDI paragon Mall,Raja Garden, Delhi",
       "state_id": 4,
       "state": "Delhi",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":3,
+          "Movie_Title":"Bahubali-2",
+          "Description":"About story of king Bahubali and his legacy",
+          "Genre":"Adventure/Action",
+          "Director":"S.S Rajamouli"
+        },
+        {
+          "Movie_id":4,
+          "Movie_Title":"Pathan",
+          "Description":"About army forces and thier missions",
+          "Genre":"Thriller/Action",
+          "Director":"Siddharth Anand" 
+        }
+      ]
     },
     {
       "Theatre_id":15,
@@ -117,7 +342,23 @@
       "location_name": "Plot Num-54,Community Center,East Of Kailash, Delhi",
       "state_id": 4,
       "state": "Delhi",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":5,
+          "Movie_Title":"Dhrishyam-2",
+          "Description":"About a family and story",
+          "Genre":"Suspense drama",
+          "Director":"Abhishekh Pathak"
+        },
+        {
+          "Movie_id":6,
+          "Movie_Title":"Wakanda-Forever",
+          "Description":"Based on Marvel Comic",
+          "Genre":"Action/Adventure",
+          "Director":"Ryan Coogler" 
+        }
+      ]
     },
     {
       "Theatre_id":16,
@@ -125,6 +366,22 @@
       "location_name": "plot num-19B,near bus stop,Karol Bagh, Delhi",
       "state_id": 4,
       "state": "Delhi",
-      "country_name": "India"
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":7,
+          "Movie_Title":"Pushpa-2",
+          "Description":"About life and story of Pushpa",
+          "Genre":"Drama/Action",
+          "Director":"Sukumar"
+        },
+        {
+          "Movie_id":8,
+          "Movie_Title":"Brahmastra",
+          "Description":"About Mythology",
+          "Genre":"Fantasy/Action",
+          "Director":"Ayan Mukherji" 
+        }
+      ]
     }
   ]
