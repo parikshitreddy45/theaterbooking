@@ -50,7 +50,7 @@ app.get('/Category',async(req,res) => {
     res.send(output)
  })
 
- app.get('/movieslist',async(req,res) => {
+ app.get('/movielist',async(req,res) => {
     let query ={}
     let collection="movielist"
     let output = await getData(collection,query)
