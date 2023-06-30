@@ -18,8 +18,8 @@ const QuickSearch = () => {
 
     return(
         <>
-            <div id="QuickSearch">
-             <p class="QuickHeading">RECOMMENDED MOVIES</p>
+            <div id="quickSearch">
+             <p className="QuickHeading">RECOMMENDED MOVIES</p>
              <QuickDisplay movieData={movieType}/>
             </div>
         </>

@@ -9,9 +9,9 @@ const QuickDisplay = (props) => {
             return movieData.map((item) => {
                 return(
                     <Link to={`/listing/${item.Movie_id}`}>
-                        <div className="tileContainer"> 
+                        <div className="Tilecontainer"> 
                             <div className="tileComponent1">
-                                <img src={item.Movie_img}/>
+                                <img src={item.Movie_img} alt={item.Movie_Title}/>
                             </div>
                         </div>
                     </Link>
