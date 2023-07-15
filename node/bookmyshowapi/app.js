@@ -20,11 +20,10 @@ app.get('/cities',async(req,res) => {
     let output = await getData(collection,query)
     res.send(output)
 })
-Movie_id
 app.get('/Category',async(req,res) => {
-    let query= {}
-    if(req.query.MovieId){
-        query ={"Movies.Movie_id": Number(req.query.MovieId)}
+    // let query= {}
+    // if(req.query.MovieId){
+    //     query ={"Movies.Movie_id": Number(req.query.MovieId)}
     }
     else{
         query ={}
