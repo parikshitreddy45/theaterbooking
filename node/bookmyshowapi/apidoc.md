@@ -37,3 +37,8 @@ http://localhost:9210/placeOrder  {"name": "parikshit","email": "parikshit@gmail
 >cancel the tickets:
 -->http://localhost:9210/deleteOrder  {"_id":"6485ea0f10e255becadee47b"}
 
+
+
+#add:
+--->http://localhost:9210/Category?MovieId=2
+

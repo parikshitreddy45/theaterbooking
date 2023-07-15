@@ -21,9 +21,9 @@ app.get('/cities',async(req,res) => {
     res.send(output)
 })
 app.get('/Category',async(req,res) => {
-    // let query= {}
-    // if(req.query.MovieId){
-    //     query ={"Movies.Movie_id": Number(req.query.MovieId)}
+    let query= {}
+    if(req.query.MovieId){
+        query ={"Movies.Movie_id": Number(req.query.MovieId)}
     }
     else{
         query ={}
