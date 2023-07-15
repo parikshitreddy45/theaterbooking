@@ -20,11 +20,11 @@ app.get('/cities',async(req,res) => {
     let output = await getData(collection,query)
     res.send(output)
 })
-
+Movie_id
 app.get('/Category',async(req,res) => {
     let query= {}
-    if(req.query.stateId){
-        query ={state_id : Number(req.query.stateId)}
+    if(req.query.MovieId){
+        query ={"Movies.Movie_id": Number(req.query.MovieId)}
     }
     else{
         query ={}
@@ -34,18 +34,6 @@ app.get('/Category',async(req,res) => {
     res.send(output)
  })
 
- app.get('/Category',async(req,res) => {
-    let query= {}
-    if(req.query.Movie_id){
-        query ={state_id : Number(req.query.Movie_id)}
-    }
-    else{
-        query ={}
-    }
-    let collection = "Category";
-    let output = await getData(collection,query);
-    res.send(output)
- })
 
  app.get('/movies',async(req,res) => {
     let query= {}
