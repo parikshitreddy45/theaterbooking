@@ -40,5 +40,6 @@ http://localhost:9210/placeOrder  {"name": "parikshit","email": "parikshit@gmail
 
 
 #add:
---->http://localhost:9210/Category?MovieId=2
+//--->http://localhost:9210/Category?MovieId=2
+https://bookmytic.onrender.com/Category?MovieId=2
 
