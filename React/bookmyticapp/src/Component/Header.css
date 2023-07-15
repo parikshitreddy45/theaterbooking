@@ -7,7 +7,7 @@
     display:flex;
     justify-content:center;
     justify-content: space-around;
-    padding: 2px;
+    padding: 1px;
     background-color: rgb(42,42,68);
 }
 .fnav.left{
@@ -42,4 +42,11 @@
 .name{
     font-size: 35px;
     color:white;
+}
+.homebutton{
+    margin-left: 10px;
+}
+.fnav img{
+    margin-right:30px;
+    border-right: 20px;
 }
