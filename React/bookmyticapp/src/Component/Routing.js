@@ -24,4 +24,4 @@ const Routing =() =>{
     )
 }
 
-export default Routing;
+export default Routing
