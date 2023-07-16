@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Home from './Home/home';
 import Main from './Home/Main';
 import Listing from './listing/listinglogic';
+import DetailDisplay from './Details/detailsLogic';
 
 const Routing =() =>{
     return(
@@ -16,6 +17,7 @@ const Routing =() =>{
                             <Route index element={<Home/>}/>
                             <Route path="home" element={<Home/>}/>
                             <Route path="listing/:Movie_id" element={<Listing/>}/>
+                            <Route path="details" element={<DetailDisplay/>}/>
                         </Route>
                     </Routes>
                 <Footer/>

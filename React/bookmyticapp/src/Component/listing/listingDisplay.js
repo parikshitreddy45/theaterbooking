@@ -12,10 +12,28 @@ const ListingDisplay = (props) =>{
                 <div className="item" key={item._id}>
                     <div className="row">
                         <div className="col-md-5">
-                           <img src={item.} alt={item}/>
+                           <img src={item.Theatre_thumb} alt={item.Theatre_name} className="Image"/>
                         </div>    
                         <div className="col-md-7">
+                           <div className="hotel_name">
+                                <Link to ={'/details?'}>
+                                    {item.Theatre_name}
+                                </Link>
+                           </div>
+                           <div className="city_name">{item.location_name}</div><br/><br/>
+                           <h4>PRESENT MOVIES:</h4>
+                           <div className="labelDiv"> 
+                                <span className="label label-primary">
+                                   {item.Movies[0].Movie_Title}
+                                </span> &nbsp;&nbsp;
+                                <span className="label label-success">
+                                   {item.Movies[1].Movie_Title}
+                                </span>
 
+                           </div>
+                           <div>
+
+                           </div>
                         </div>
                     </div>
 
