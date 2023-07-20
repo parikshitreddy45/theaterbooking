@@ -11,7 +11,7 @@ const DetailDisplay =() =>{
 
    let [searchParams] = useSearchParams()
    let [theatreDetails,settheatreDetails] = useState()
-   let theatreId = searchParams.getAll('TheatreId');
+   let theatreId = searchParams.getAll(' ');
    const showDetail = async() => {
         const rdata = await axios.get(`${base_url}/Category?/${theatreId}`);
         settheatreDetails(rdata.data)

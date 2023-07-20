@@ -20,7 +20,7 @@ app.get('/Category',async(req,res) => {
         query ={"Movies.Movie_id": Number(req.query.MovieId)}
     }
     else if(req.query.stateId){
-        query ={"state_id":Number(req.query.stateId)}
+        query ={"state_id":  Number(req.query.stateId)}
     }
     else if(req.query.TheatreId){
         query ={Theatre_id : Number(req.query.TheatreId)}
