@@ -16,7 +16,7 @@ const ListingDisplay = (props) =>{
                         </div>    
                         <div className="col-md-7">
                            <div className="hotel_name">
-                                <Link to ={'/details?'}>
+                                <Link to ={`/details?Theatre_id=${item.Theatre_id}`}>
                                     {item.Theatre_name}
                                 </Link>
                            </div>
@@ -29,7 +29,6 @@ const ListingDisplay = (props) =>{
                                 <span className="label label-success">
                                    {item.Movies[1].Movie_Title}
                                 </span>
-
                            </div>
                            <div>
 

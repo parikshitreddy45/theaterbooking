@@ -28,6 +28,9 @@ app.get('/Category',async(req,res) => {
     else if(req.query.stateId){
         query ={"state_id":Number(req.query.stateId)}
     }
+    else if(req.query.TheatreId){
+        query ={"Theatre_id":Number(req.query.TheatreId)}
+    }
     let collection = "Category";
     let output = await getData(collection,query);
     res.send(output)
