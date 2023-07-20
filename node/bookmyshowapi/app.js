@@ -58,9 +58,6 @@ app.get('/cities',async(req,res) => {
    if(req.query.ShowId){
         query={Show_id: Number(req.query.ShowId)}
     }
-    else if(req.query.MovieId){
-        query={Movie_id: Number(req.query.MovieId)}
-    }
     else{
         query = {}
     }
