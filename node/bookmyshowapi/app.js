@@ -14,12 +14,6 @@ app.get('/',(req,res) => {
     res.send('Hiii From express')
 })
 
-app.get('/cities',async(req,res) => {
-    let query ={};
-    let collection ="cities"
-    let output = await getData(collection,query)
-    res.send(output)
-})
 app.get('/Category',async(req,res) => {
     let query= {}
     if(req.query.MovieId){
@@ -29,20 +23,27 @@ app.get('/Category',async(req,res) => {
         query ={"state_id":Number(req.query.stateId)}
     }
     else if(req.query.TheatreId){
-        query ={"Theatre_id":Number(req.query.TheatreId)}
+        query ={Theatre_id : Number(req.query.TheatreId)}
     }
+    else {
+        query ={}
+    }
+
     let collection = "Category";
     let output = await getData(collection,query);
     res.send(output)
  })
 
+app.get('/cities',async(req,res) => {
+    let query ={};
+    let collection ="cities"
+    let output = await getData(collection,query)
+    res.send(output)
+})
 
  app.get('/movies',async(req,res) => {
     let query= {}
-    if(req.query.TheatreId){
-        query ={Theatre_id : Number(req.query.TheatreId)}
-    }
-    else if (req.query.MovieId){
+    if (req.query.MovieId){
         query ={Movie_id : Number(req.query.MovieId)}
     }
     else{
