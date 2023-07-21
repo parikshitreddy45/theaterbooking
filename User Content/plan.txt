@@ -162,3 +162,442 @@ db.user.remove({"name":"Sunny"})  //deletes only a single record of that particu
                    </div>  
                 </div>
              </div>
+
+
+
+
+             [
+    {
+      "Theatre_id":1,
+      "Theatre_name":"Megha theatre(70mm)",
+      "Theatre_thumb":"https://i.ibb.co/GpG4dC7/Screenshot-2023-06-01-234110.png",
+      "location_name": "Near ganesh temple,Dilshuknagar ,Hyderabad",
+      "state_id": 1,
+      "state": "Telangana",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":1,
+          "Movie_Title":"Kantara",
+          "Description":"About Mythology",
+          "Genre":"Drama/Action",
+          "Movie_img1":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+          "Director":"Rishabh Shetty"
+        },
+        {
+          "Movie_id":2,
+          "Movie_Title":"Adipurush",
+          "Description":"About rama",
+          "Genre":"Action/fantasy",
+          "Movie_img2":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
+          "Director":"Om Raut"  
+        }
+      ]
+    },
+    {
+      "Theatre_id":2,
+      "Theatre_name":"Asian (70mm)",
+      "location_name": "Near Tagore Garden ,Hyderbad",
+      "Theatre_thumb":"https://i.ibb.co/27xZqNH/Screenshot-2023-06-02-104423.png",
+      "state_id": 1,
+      "state": "Telangana",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":3,
+          "Movie_Title":"Bahubali-2",
+          "Description":"About story of king Bahubali and his legacy",
+          "Genre":"Adventure/Action",
+          "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png",
+          "Director":"S.S Rajamouli"
+        },
+        {
+          "Movie_id":4,
+          "Movie_Title":"Pathan",
+          "Description":"About army forces and thier missions",
+          "Genre":"Thriller/Action",
+          "Movie_img":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png",
+          "Director":"Siddharth Anand"
+        }
+      ]
+    },
+    {
+      "Theatre_id":3,
+      "Theatre_name":"Sai Sudarshan(35mm)",
+      "Theatre_thumb":"https://i.ibb.co/MkdDjwK/Screenshot-2023-06-02-104227.png",
+      "location_name": "MGBS Phase 2, Hyderabad",
+      "state_id": 1,
+      "state": "Telangana",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":5,
+          "Movie_Title":"Dhrishyam-2",
+          "Description":"About a family and story",
+          "Genre":"Suspense drama",
+          "Movie_img":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png",
+          "Director":"Abhishekh Pathak"
+        },
+        {
+          "Movie_id":6,
+          "Movie_Title":"Wakanda-Forever",
+          "Description":"Based on Marvel Comic",
+          "Genre":"Action/Adventure",
+          "Movie_img":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png",
+          "Director":"Ryan Coogler"
+        }
+      ]
+    },
+    {
+      "Theatre_id":4,
+      "Theatre_name":"Indra-Nagendra (70mm)",
+      "Theatre_thumb":"https://i.ibb.co/HHLQQsP/Screenshot-2023-07-16-155255.png",
+      "location_name": "Kharmanghat near metro ,Hyderabad",
+      "state_id": 1,
+      "state": "Telangana",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":7,
+          "Movie_Title":"Pushpa-2",
+          "Description":"About life and story of Pushpa",
+          "Genre":"Drama/Action",
+          "Movie_img":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png",
+          "Director":"Sukumar"
+        },
+        {
+          "Movie_id":8,
+          "Movie_Title":"Brahmastra",
+          "Description":"About Mythology",
+          "Genre":"Fantasy/Action",
+          "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png",
+          "Director":"Ayan Mukherji"
+        }
+      ]
+    },
+    {
+      "Theatre_id":5,
+      "Theatre_name":"INOX Cinemas (35mm)",
+      "Theatre_thumb":"https://i.ibb.co/jfGXNKJ/Screenshot-2023-07-16-155515.png",
+      "location_name": "Metro junction,Kalyan-East, mumbai,maharastra",
+      "state_id": 2,
+      "state": "Maharashtra",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":1,
+          "Movie_Title":"Kantara",
+          "Description":"About Mythology",
+          "Genre":"Drama/Action",
+          "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+          "Director":"Rishabh Shetty"
+        },
+        {
+          "Movie_id":2,
+          "Movie_Title":"Adipurush",
+          "Description":"About rama",
+          "Genre":"Action/fantasy",
+          "Movie_img":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
+          "Director":"Om Raut"
+        }
+      ]
+    },
+    {
+      "Theatre_id":6,
+      "Theatre_name":"Carnival Cinemas (70mm)",
+      "Theatre_thumb":"https://i.ibb.co/DRQhsXf/Screenshot-2023-07-16-155625.png",
+      "location_name": "Chakala- anderi east, Mumbai,Maharastra",
+      "state_id": 2,
+      "state": "Maharashtra",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":3,
+          "Movie_Title":"Bahubali-2",
+          "Description":"About story of king Bahubali and his legacy",
+          "Genre":"Adventure/Action",
+          "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png",
+          "Director":"S.S Rajamouli"
+        },
+        {
+          "Movie_id":4,
+          "Movie_Title":"Pathan",
+          "Description":"About army forces and thier missions",
+          "Genre":"Thriller/Action",
+          "Movie_img":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png",
+          "Director":"Siddharth Anand"
+        }
+      ]
+    },
+    {
+      "Theatre_id":7,
+      "Theatre_name":"Sai Asian Cinemas (35mm)",
+      "Theatre_thumb":"https://i.ibb.co/4RdH2fJ/Screenshot-2023-07-16-155733.png",
+      "location_name": "Kothrud, Pune",
+      "state_id": 2,
+      "state": "Maharashtra",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":5,
+          "Movie_Title":"Dhrishyam-2",
+          "Description":"About a family and story",
+          "Genre":"Suspense drama",
+          "Movie_img":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png",
+          "Director":"Abhishekh Pathak"
+        },
+        {
+          "Movie_id":6,
+          "Movie_Title":"Wakanda-Forever",
+          "Description":"Based on Marvel Comic",
+          "Genre":"Action/Adventure",
+          "Movie_img":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png",
+          "Director":"Ryan Coogler"  
+        }
+      ]
+    },
+    {
+      "Theatre_id":8,
+      "Theatre_name":"Golden Cinemas (70mm)",
+      "Theatre_thumb":"https://i.ibb.co/wcGFvks/Screenshot-2023-07-16-155843.png",
+      "location_name": "Milan Subway Road Santacruz West,Mumbai",
+      "state_id": 2,
+      "state": "Maharashtra",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":7,
+          "Movie_Title":"Pushpa-2",
+          "Description":"About life and story of Pushpa",
+          "Genre":"Drama/Action",
+          "Movie_img":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png",
+          "Director":"Sukumar"
+        },
+        {
+          "Movie_id":8,
+          "Movie_Title":"Brahmastra",
+          "Description":"About Mythology",
+          "Genre":"Fantasy/Action",
+          "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png",
+          "Director":"Ayan Mukherji" 
+        }
+      ]
+    },
+    {
+      "Theatre_id":9,
+      "Theatre_name":"Velco Cinema hall(40mm)",
+      "Theatre_thumb":"https://i.ibb.co/S50wPGN/Screenshot-2023-07-16-155942.png",
+      "location_name": "Anakaputhur road,Chennai",
+      "state_id": 3,
+      "state": "Tamil Nadu",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":1,
+          "Movie_Title":"Kantara",
+          "Description":"About Mythology",
+          "Genre":"Drama/Action",
+          "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+          "Director":"Rishabh Shetty"
+        },
+        {
+          "Movie_id":2,
+          "Movie_Title":"Adipurush",
+          "Description":"About rama",
+          "Genre":"Action/fantasy",
+          "Movie_img":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
+          "Director":"Om Raut"  
+        }
+      ]
+    },
+    {
+      "Theatre_id":10,
+      "Theatre_name":"Mayajaal Cinemas (70mm)",
+      "Theatre_thumb":"https://i.ibb.co/pwNXTkm/Screenshot-2023-07-16-160033.png",
+      "location_name": "East Road 72,Kanathur, Chennai",
+      "state_id": 3,
+      "state": "Tamil Nadu",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":3,
+          "Movie_Title":"Bahubali-2",
+          "Description":"About story of king Bahubali and his legacy",
+          "Genre":"Adventure/Action",
+          "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png",
+          "Director":"S.S Rajamouli"
+        },
+        {
+          "Movie_id":4,
+          "Movie_Title":"Pathan",
+          "Description":"About army forces and thier missions",
+          "Genre":"Thriller/Action",
+          "Movie_img":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png",
+          "Director":"Siddharth Anand"  
+        }
+      ]
+    },
+    {
+      "Theatre_id":11,
+      "Theatre_name":"Vidya Cinemas (35mm)",
+      "Theatre_thumb":"https://i.ibb.co/PwL1YRh/Screenshot-2023-07-16-160125.png",
+      "location_name": "Kakan Streat,Tambaram, Chennai",
+      "state_id": 3,
+      "state": "Tamil Nadu",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":5,
+          "Movie_Title":"Dhrishyam-2",
+          "Description":"About a family and story",
+          "Genre":"Suspense drama",
+          "Movie_img":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png",
+          "Director":"Abhishekh Pathak"
+        },
+        {
+          "Movie_id":6,
+          "Movie_Title":"Wakanda-Forever",
+          "Description":"Based on Marvel Comic",
+          "Genre":"Action/Adventure",
+          "Movie_img":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png",
+          "Director":"Ryan Coogler" 
+        }
+      ]
+    },
+    {
+      "Theatre_id":12,
+      "Theatre_name":"Ega Cinemas (70mm)",
+      "Theatre_thumb":"https://i.ibb.co/hFGrcTy/Screenshot-2023-07-16-160231.png",
+      "location_name": "Near Poonamelli high schoolAnakaputhur road,Chennai",
+      "state_id": 3,
+      "state": "Tamil Nadu",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":7,
+          "Movie_Title":"Pushpa-2",
+          "Description":"About life and story of Pushpa",
+          "Genre":"Drama/Action",
+          "Movie_img":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png",
+          "Director":"Sukumar"
+
+        },
+        {
+          "Movie_id":8,
+          "Movie_Title":"Brahmastra",
+          "Description":"About Mythology",
+          "Genre":"Fantasy/Action",
+          "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png",
+          "Director":"Ayan Mukherji" 
+        }
+      ]
+    },
+    {
+      "Theatre_id":13,
+      "Theatre_name":"PVR (Opulent Mall)",
+      "Theatre_thumb":"https://i.ibb.co/7RD714b/Screenshot-2023-07-16-160336.png",
+      "location_name": "Opulent Mall 115,Grand Trunk Road,Model Town Ghaziabad, Delhi",
+      "state_id": 4,
+      "state": "Delhi",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":1,
+          "Movie_Title":"Kantara",
+          "Description":"About Mythology",
+          "Genre":"Drama/Action",
+          "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+          "Director":"Rishabh Shetty"
+        },
+        {
+          "Movie_id":2,
+          "Movie_Title":"Adipurush",
+          "Description":"About rama",
+          "Genre":"Action/fantasy",
+          "Movie_img":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
+          "Director":"Om Raut"
+        }
+      ]
+    },
+    {
+      "Theatre_id":14,
+      "Theatre_name":"Wave Cinemas (45mm)",
+      "Theatre_thumb":"https://i.ibb.co/JmCcjp1/Screenshot-2023-07-16-160448.png",
+      "location_name": "TDI paragon Mall,Raja Garden, Delhi",
+      "state_id": 4,
+      "state": "Delhi",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":3,
+          "Movie_Title":"Bahubali-2",
+          "Description":"About story of king Bahubali and his legacy",
+          "Genre":"Adventure/Action",
+          "Movie_img":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png",
+          "Director":"S.S Rajamouli"
+        },
+        {
+          "Movie_id":4,
+          "Movie_Title":"Pathan",
+          "Description":"About army forces and thier missions",
+          "Genre":"Thriller/Action",
+          "Movie_img":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png",
+          "Director":"Siddharth Anand" 
+        }
+      ]
+    },
+    {
+      "Theatre_id":15,
+      "Theatre_name":"M Cinemas",
+      "Theatre_thumb":"https://i.ibb.co/yFK4TtS/Screenshot-2023-07-16-160552.png",
+      "location_name": "Plot Num-54,Community Center,East Of Kailash, Delhi",
+      "state_id": 4,
+      "state": "Delhi",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":5,
+          "Movie_Title":"Dhrishyam-2",
+          "Description":"About a family and story",
+          "Genre":"Suspense drama",
+          "Movie_img":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png",
+          "Director":"Abhishekh Pathak"
+        },
+        {
+          "Movie_id":6,
+          "Movie_Title":"Wakanda-Forever",
+          "Description":"Based on Marvel Comic",
+          "Genre":"Action/Adventure",
+          "Movie_img":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png",
+          "Director":"Ryan Coogler" 
+        }
+      ]
+    },
+    {
+      "Theatre_id":16,
+      "Theatre_name":"Liberty Cinemas (70mm)",
+      "Theatre_thumb":"https://i.ibb.co/crqgs9S/Screenshot-2023-07-16-160644.png",
+      "location_name": "plot num-19B,near bus stop,Karol Bagh, Delhi",
+      "state_id": 4,
+      "state": "Delhi",
+      "country_name": "India",
+      "Movies":[
+        {
+          "Movie_id":7,
+          "Movie_Title":"Pushpa-2",
+          "Description":"About life and story of Pushpa",
+          "Genre":"Drama/Action",
+          "Movie_img":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png",
+          "Director":"Sukumar"
+        },
+        {
+          "Movie_id":8,
+          "Movie_Title":"Brahmastra",
+          "Description":"About Mythology",
+          "Genre":"Fantasy/Action",
+          "Movie_img":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png",
+          "Director":"Ayan Mukherji" 
+        }
+      ]
+    }
+  ]

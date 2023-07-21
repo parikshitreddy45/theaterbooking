@@ -36,6 +36,8 @@
       "state_id": 1,
       "state": "Telangana",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png",
+      "Movie_img2":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png",
       "Movies":[
         {
           "Movie_id":3,
@@ -63,6 +65,8 @@
       "state_id": 1,
       "state": "Telangana",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png",
+      "Movie_img2":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png",
       "Movies":[
         {
           "Movie_id":5,
@@ -90,6 +94,8 @@
       "state_id": 1,
       "state": "Telangana",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png",
+      "Movie_img2":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png",
       "Movies":[
         {
           "Movie_id":7,
@@ -117,13 +123,15 @@
       "state_id": 2,
       "state": "Maharashtra",
       "country_name": "India",
+      "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
       "Movies":[
         {
           "Movie_id":1,
           "Movie_Title":"Kantara",
           "Description":"About Mythology",
           "Genre":"Drama/Action",
-          "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+          "Movie_img1":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+          "Movie_img2":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
           "Director":"Rishabh Shetty"
         },
         {
@@ -144,6 +152,8 @@
       "state_id": 2,
       "state": "Maharashtra",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png",
+      "Movie_img2":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png",
       "Movies":[
         {
           "Movie_id":3,
@@ -171,6 +181,8 @@
       "state_id": 2,
       "state": "Maharashtra",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png",
+      "Movie_img2":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png",
       "Movies":[
         {
           "Movie_id":5,
@@ -198,6 +210,8 @@
       "state_id": 2,
       "state": "Maharashtra",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png",
+      "Movie_img2":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png",
       "Movies":[
         {
           "Movie_id":7,
@@ -225,6 +239,8 @@
       "state_id": 3,
       "state": "Tamil Nadu",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+      "Movie_img2":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
       "Movies":[
         {
           "Movie_id":1,
@@ -252,6 +268,8 @@
       "state_id": 3,
       "state": "Tamil Nadu",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png",
+      "Movie_img2":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png",
       "Movies":[
         {
           "Movie_id":3,
@@ -279,6 +297,8 @@
       "state_id": 3,
       "state": "Tamil Nadu",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png",
+      "Movie_img2":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png",
       "Movies":[
         {
           "Movie_id":5,
@@ -306,6 +326,8 @@
       "state_id": 3,
       "state": "Tamil Nadu",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png",
+      "Movie_img2":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png",
       "Movies":[
         {
           "Movie_id":7,
@@ -334,6 +356,8 @@
       "state_id": 4,
       "state": "Delhi",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+      "Movie_img2":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
       "Movies":[
         {
           "Movie_id":1,
@@ -361,6 +385,8 @@
       "state_id": 4,
       "state": "Delhi",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/7p1MtvK/Screenshot-2023-06-01-233333.png",
+      "Movie_img2":"https://i.ibb.co/59pfbkB/Screenshot-2023-06-01-233503.png",
       "Movies":[
         {
           "Movie_id":3,
@@ -388,6 +414,8 @@
       "state_id": 4,
       "state": "Delhi",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/B6GMSWK/Screenshot-2023-06-01-233543.png",
+      "Movie_img2":"https://i.ibb.co/9v7Mwgb/Screenshot-2023-06-01-233623.png",
       "Movies":[
         {
           "Movie_id":5,
@@ -415,6 +443,8 @@
       "state_id": 4,
       "state": "Delhi",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/3SwvQxt/Screenshot-2023-06-01-233705.png",
+      "Movie_img2":"https://i.ibb.co/tKNhJF4/Screenshot-2023-06-01-233109.png",
       "Movies":[
         {
           "Movie_id":7,

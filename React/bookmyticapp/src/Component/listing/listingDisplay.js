@@ -33,11 +33,11 @@ const ListingDisplay = (props) =>{
                            </div>  */}
                            <div class="row">
                                 <div class="column movie1">
-                                   <img src={item.Theatre_thumb} alt={item.Theatre_name}/>
+                                   <img src={item.Movie_img1} alt={item.Theatre_name}/>
                                    <button>BOOK TICKETS</button>;
                                 </div>
                                 <div class="column movie2">
-                                   <img src={item.Theatre_thumb} alt={item.Theatre_name}/>
+                                   <img src={item.Movie_img2} alt={item.Theatre_name}/>
                                    <button>BOOK TICKETS</button>;
                                 </div>
                            </div>     
