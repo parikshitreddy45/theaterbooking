@@ -8,31 +8,39 @@ const ListingDisplay = (props) =>{
       if(listData){ 
         if(listData.length>0){
             return listData.map((item) => {
-               return(
+               return(       
                 <div className="item" key={item._id}>
                     <div className="row">
                         <div className="col-md-5">
+                        <div className="design"><p>THEATRE</p></div> 
                            <img src={item.Theatre_thumb} alt={item.Theatre_name} className="Image"/>
-                        </div>    
-                        <div className="col-md-7">
-                           <div className="hotel_name">
+                           <div className="theatre_name">
                                 <Link to ={`/details?Theatre_id=${item.Theatre_id}`}>
                                     {item.Theatre_name}
                                 </Link>
-                           </div>
                            <div className="city_name">{item.location_name}</div><br/><br/>
-                           <h4>PRESENT MOVIES:</h4>
-                           <div className="labelDiv"> 
-                                <span className="label label-primary">
-                                   {item.Movies[0].Movie_Title}
-                                </span> &nbsp;&nbsp;
-                                <span className="label label-success">
-                                   {item.Movies[1].Movie_Title}
-                                </span>
-                           </div>
-                           <div>
-
-                           </div>
+                        </div>
+                        </div>    
+                        <div>
+                        <div className="design"><p>PRESENT MOVIES</p></div> 
+                            {/* <div className="Tilecontainer"> 
+                            <div className="tileComponent1">
+                                   {item.Movies[0].Movie_Title}<br/>  
+                                    <img src={item.Theatre_thumb} alt={item.Theatre_name} className="rounded float-left"/>
+                                   {item.Movies[1].Movie_Title}<br/>
+                                    <img src={item.Theatre_thumb} alt={item.Theatre_name} className="rounded float-right"/>
+                                </div>
+                           </div>  */}
+                           <div class="row">
+                                <div class="column movie1">
+                                   <img src={item.Theatre_thumb} alt={item.Theatre_name}/>
+                                   <button>BOOK TICKETS</button>;
+                                </div>
+                                <div class="column movie2">
+                                   <img src={item.Theatre_thumb} alt={item.Theatre_name}/>
+                                   <button>BOOK TICKETS</button>;
+                                </div>
+                           </div>     
                         </div>
                     </div>
 

@@ -17,13 +17,11 @@ const Listing = () =>{
             settheatreList(res.data)
         })
     },[])
+    
     return (
         <>
             <div className='row'>
                 <div id='mainListing'>
-                    <div id="filter">
-
-                    </div>
                     <ListingDisplay listData={TheatreList}/>
                 </div>
             </div>

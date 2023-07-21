@@ -7,13 +7,15 @@
       "state_id": 1,
       "state": "Telangana",
       "country_name": "India",
+      "Movie_img1":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+      "Movie_img2":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
       "Movies":[
         {
           "Movie_id":1,
           "Movie_Title":"Kantara",
           "Description":"About Mythology",
           "Genre":"Drama/Action",
-          "Movie_img":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
+          "Movie_img1":"https://i.ibb.co/GRDTydH/Screenshot-2023-06-01-233030.png",
           "Director":"Rishabh Shetty"
         },
         {
@@ -21,7 +23,7 @@
           "Movie_Title":"Adipurush",
           "Description":"About rama",
           "Genre":"Action/fantasy",
-          "Movie_img":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
+          "Movie_img2":"https://i.ibb.co/481XLvG/Screenshot-2023-06-01-233236.png",
           "Director":"Om Raut"  
         }
       ]
