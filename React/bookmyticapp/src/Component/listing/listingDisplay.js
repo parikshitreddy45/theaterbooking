@@ -15,9 +15,7 @@ const ListingDisplay = (props) =>{
                         <div className="design"><p>THEATRE</p></div> 
                            <img src={item.Theatre_thumb} alt={item.Theatre_name} className="Image"/>
                            <div className="theatre_name">
-                                <Link to ={`/details?Theatre_id=${item.Theatre_id}`}>
-                                    {item.Theatre_name}
-                                </Link>
+                                {item.Theatre_name}
                            <div className="city_name">{item.location_name}</div><br/><br/>
                         </div>
                         </div>    
@@ -33,12 +31,16 @@ const ListingDisplay = (props) =>{
                            </div>  */}
                            <div class="row">
                                 <div class="column movie1">
-                                   <img src={item.Movie_img1} alt={item.Theatre_name}/>
-                                   <button>BOOK TICKETS</button>;
+                                   <img src={item.Movie_img1} alt={item.Movie_Title}/>
+                                   <Link to ={`/details?Theatre_id=${item.Theatre_id}`}>
+                                        <button>BOOK TICKETS</button>;
+                                   </Link>
                                 </div>
                                 <div class="column movie2">
-                                   <img src={item.Movie_img2} alt={item.Theatre_name}/>
-                                   <button>BOOK TICKETS</button>;
+                                <img src={item.Movie_img2} alt={item.Movie_Title}/>
+                                <Link to ={`/details?Theatre_id=${item.Theatre_id}`}>
+                                        <button>BOOK TICKETS</button>;
+                                </Link>
                                 </div>
                            </div>     
                         </div>
@@ -55,8 +57,8 @@ const ListingDisplay = (props) =>{
     }else {
         return(
                 <div>
-                    <h2>Loading</h2>
-                    <img src="images/loader.gif" alt="loader"/>
+                    <h2 className="logostyle">Loading</h2>
+                    <img src="/images/loader.gif" alt="loader"/>
                 </div>
              ) 
           }
