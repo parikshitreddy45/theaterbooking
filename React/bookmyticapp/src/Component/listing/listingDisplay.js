@@ -66,7 +66,6 @@ const ListingDisplay = (props) =>{
     return(
         <div id="content"> 
             {renderData(props)}
-
         </div>
     ) 
     }
