@@ -73,8 +73,8 @@ app.get('/cities',async(req,res) => {
 
 app.get('/details/:id',async(req,res) =>{
       let id= Number(req.params.id);
-      let query ={Theatre_id:id}
-      let collection ="Category";
+      let query ={Movie_id:id}
+      let collection ="movieshows";
       let output = await getData(collection,query);
       res.send(output)
 })

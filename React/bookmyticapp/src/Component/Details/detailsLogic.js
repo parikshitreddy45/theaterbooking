@@ -13,8 +13,8 @@ const DetailDisplay =() =>{
    let [showDetails,setshowDetails] = useState()
    let Theatre_id = searchParams.getAll('Theatre_id');
    const showDetail = async() => {
-        const rdata = await axios.get(`${base_url}/movies?/${MovieId}`);
-        setshowDetails(rdata.data[0])
+        const rdata = await axios.get(`${base_url}/details?/${Theatre_id}`);
+        setshowDetails(rdata)
    }
    useEffect (() =>{
       showDetail(showDetails)
@@ -24,7 +24,8 @@ const DetailDisplay =() =>{
       if(showDetails){
          return (
             <>
-
+           <Link> 
+           </Link>
             
             </>
          )
