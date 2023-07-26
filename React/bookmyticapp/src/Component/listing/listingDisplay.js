@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 
+
 const ListingDisplay = (props) =>{
 
     const renderData = ({listData}) =>{
@@ -15,7 +16,7 @@ const ListingDisplay = (props) =>{
                         <div className="design"><p>THEATRE</p></div> 
                            <img src={item.Theatre_thumb} alt={item.Theatre_name} className="Image"/>
                            <div className="theatre_name">
-                                {item.Theatre_name}
+                                {item.Theatre_name}  
                            <div className="city_name">{item.location_name}</div><br/><br/>
                         </div>
                         </div>    
@@ -32,15 +33,21 @@ const ListingDisplay = (props) =>{
                            <div class="row">
                                 <div class="column movie1">
                                    <img src={item.Movie_img1} alt={item.Movie_Title}/>
-                                   <Link to ={`/details/${item.Theatre_id}`}>
-                                        <button>BOOK TICKETS</button>;
+                                   {/* <Link to={`/details?Theatreid=${item.Theatre_id}`}>
+                                        <button>BOOK TICKETS</button>
+                                   </Link> */}
+                                     <Link to={`/details?Theatreid=${item.Theatre_id}`}>
+                                        <button>BOOK TICKETS</button>
                                    </Link>
                                 </div>
                                 <div class="column movie2">
                                 <img src={item.Movie_img2} alt={item.Movie_Title}/>
-                                <Link to ={`/details/${item.Theatre_id}`}>
-                                        <button>BOOK TICKETS</button>;
-                                </Link>
+                                {/* <Link to={`/details?Theatreid=${item.Theatre_id}`}>
+                                        <button>BOOK TICKETS</button>
+                                </Link> */}
+                                  <Link to={`/details?Theatreid=${item.Theatre_id}`}>
+                                        <button>BOOK TICKETS</button>
+                                   </Link>
                                 </div>
                            </div>     
                         </div>

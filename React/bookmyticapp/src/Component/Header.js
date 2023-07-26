@@ -9,7 +9,7 @@ const Header = () =>{
     <nav class="fnav">
         <div>
         <Link href="https://imgbb.com/"><img src="https://i.ibb.co/VQMMjVH/Screenshot-2023-06-23-075502.png" alt="logo" border="0"/></Link>
-        <Link className='btn btn-info homebutton' to="/">Home</Link>
+        <Link className='withbuttone btn btn-info homebutton' to="/">Home</Link>
         </div>
         <p class="name">BOOK MY TIC</p>
         <div class="right">

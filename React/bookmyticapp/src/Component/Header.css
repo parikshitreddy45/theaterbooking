@@ -33,7 +33,7 @@
 }
 .fright{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     padding:8px;
     margin-top: 26px;
     color: white;
@@ -49,4 +49,7 @@
 .fnav img{
     margin-right:30px;
     border-right: 20px;
+}
+.withbuttone{
+    margin-top: 17px;
 }
