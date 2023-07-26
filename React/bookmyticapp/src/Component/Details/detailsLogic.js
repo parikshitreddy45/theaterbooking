@@ -39,9 +39,8 @@ const DetailDisplay = () =>{
                     <div className='tileContent'>
                         <div className='content'>
                             <h1>{theatreDetails.Theatre_name}</h1>
-                            <span id="cfeedback">231 Customers Rating Average</span>
-                            <h3>Old Price <del>Rs. 450</del></h3>
-                            <h3>Best Taste of Fresh Chai with Samosa At your Door or DineIn</h3>
+                            
+                            <h3>Price : Rs. 450</h3>
                                 <div>
                                     <div className="icons">
                                         <img src="https://i.ibb.co/wJvrhYg/veg.png" alt=""/>

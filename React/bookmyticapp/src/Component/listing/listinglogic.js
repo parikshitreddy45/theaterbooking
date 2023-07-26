@@ -10,7 +10,7 @@ const Listing = () =>{
     let params = useParams();
     const [TheatreList,settheatreList] =useState();
 
-    useEffect(() =>{
+    useEffect(() => {
         let movieid = params.Movie_id;
         axios.get(`${base_url}/Category?MovieId=${movieid}`)
         .then((res) =>{

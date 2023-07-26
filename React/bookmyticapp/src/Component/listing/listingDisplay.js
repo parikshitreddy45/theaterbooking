@@ -42,12 +42,9 @@ const ListingDisplay = (props) =>{
                                 </div>
                                 <div class="column movie2">
                                 <img src={item.Movie_img2} alt={item.Movie_Title}/>
-                                {/* <Link to={`/details?Theatreid=${item.Theatre_id}`}>
+                                <Link to={`/details?Theatreid=${item.Theatre_id}`}>
                                         <button>BOOK TICKETS</button>
-                                </Link> */}
-                                  <Link to={`/details?Theatreid=${item.Theatre_id}`}>
-                                        <button>BOOK TICKETS</button>
-                                   </Link>
+                                </Link>
                                 </div>
                            </div>     
                         </div>

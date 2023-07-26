@@ -17,7 +17,7 @@ const Routing =() =>{
                             <Route index element={<Home/>}/>
                             <Route path="home" element={<Home/>}/>
                             <Route path="listing/:Movie_id" element={<Listing/>}/>
-                            <Route path="details" element={<DetailDisplay/>}/>
+                            <Route path="details" element={< DetailDisplay/>}/>
                         </Route>
                     </Routes>
                 <Footer/>
