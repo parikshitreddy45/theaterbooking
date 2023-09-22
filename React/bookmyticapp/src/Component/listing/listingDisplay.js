@@ -1,9 +1,16 @@
-import React from "react";
+import React,{useState} from "react";
 import {Link} from "react-router-dom";
+import SeatingInterface from "./SeatingInterface";
 
 
 
 const ListingDisplay = (props) =>{
+      const [showSeatingInterface, setShowSeatingInterface] = useState(false);
+
+  const handleBookTicketsClick = () => {
+    // When "BOOK TICKETS" button is clicked, show the SeatingInterface
+    setShowSeatingInterface(true);
+  };
 
     const renderData = ({listData}) =>{
       if(listData){ 
@@ -37,13 +44,13 @@ const ListingDisplay = (props) =>{
                                         <button>BOOK TICKETS</button>
                                    </Link> */}
                                      <Link to={`/details?Theatreid=${item.Theatre_id}`}>
-                                        <button>BOOK TICKETS</button>
+                                        <button onClick={handleBookTicketsClick} >BOOK TICKETS</button>
                                    </Link>
                                 </div>
                                 <div class="column movie2">
                                 <img src={item.Movie_img2} alt={item.Movie_Title}/>
                                 <Link to={`/details?Theatreid=${item.Theatre_id}`}>
-                                        <button>BOOK TICKETS</button>
+                                        <button onClick={handleBookTicketsClick}>BOOK TICKETS</button>
                                 </Link>
                                 </div>
                            </div>     
@@ -69,10 +76,56 @@ const ListingDisplay = (props) =>{
     }    
     return(
         <div id="content"> 
-            {renderData(props)}
-        </div>
-    ) 
+       {renderData(props)}
+
+       {showSeatingInterface && <SeatingInterface />}
+     </div>
+  );
     }
+export default ListingDisplay;
 
 
-export default ListingDisplay
+
+// import React, { useState } from "react";
+// // import { Link } from "react-router-dom";
+// import SeatingInterface from "./SeatingInterface";
+
+// const ListingDisplay = (props) => {
+//   const [showSeatingInterface, setShowSeatingInterface] = useState(false);
+
+//   const handleBookTicketsClick = () => {
+//     // When "BOOK TICKETS" button is clicked, show the SeatingInterface
+//     setShowSeatingInterface(true);
+//   };
+
+//   const renderData = ({ listData }) => {
+//     // ... Your existing code ...
+
+//     return listData.map((item) => {
+//       return (
+//         <div className="item" key={item._id}>
+//           {/* ... Your existing code ... */}
+//           <div class="column movie1">
+//             <img src={item.Movie_img1} alt={item.Movie_Title} />
+//             {/* Use onClick to call handleBookTicketsClick when the button is clicked */}
+//             <button onClick={handleBookTicketsClick}>BOOK TICKETS</button>
+//           </div>
+//           <div class="column movie2">
+//             <img src={item.Movie_img2} alt={item.Movie_Title} />
+//             <button onClick={handleBookTicketsClick}>BOOK TICKETS</button>
+//           </div>
+//         </div>
+//       );
+//     });
+//   };
+
+//   return (
+//     <div id="content">
+//       {renderData(props)}
+//       {/* Render the SeatingInterface component conditionally */}
+//       {showSeatingInterface && <SeatingInterface />}
+//     </div>
+//   );
+// };
+
+// export default ListingDisplay;

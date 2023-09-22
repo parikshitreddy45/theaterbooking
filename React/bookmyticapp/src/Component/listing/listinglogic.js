@@ -16,7 +16,7 @@ const Listing = () =>{
         .then((res) =>{
             settheatreList(res.data)
         })
-    },[])
+    })
     
     return (
         <>
@@ -29,6 +29,6 @@ const Listing = () =>{
     )
 }
 
-export default Listing
+export default Listing;
 
 
