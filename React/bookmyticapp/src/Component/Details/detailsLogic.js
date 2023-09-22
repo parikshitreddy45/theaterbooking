@@ -25,7 +25,7 @@ const DetailDisplay = () => {
         if (theatreDetails) {
             return (
                 <>
-                    <div className="seating-interface">
+                    {/* <div className="seating-interface">
                         {Array.from({ length: 10 }, (_, row) => (
                             <div key={`row-${row}`} className="seating-row">
                                 {Array.from({ length: 10 }, (_, seat) => (
@@ -35,7 +35,7 @@ const DetailDisplay = () => {
                                 ))}
                             </div>
                         ))}
-                    </div>
+                    </div> */}
                 </>
             );
         }
@@ -46,8 +46,8 @@ const DetailDisplay = () => {
 
     return (
         <>
-            <div className='main'>
-                {/* Provided HTML code goes here */}
+            {/* <div className='main'>
+                Provided HTML code goes here
                 <h1>Theater Seating</h1>
                 <div className="controls">
                     <label htmlFor="date">Date:</label>
@@ -55,9 +55,9 @@ const DetailDisplay = () => {
                     <label htmlFor="time">Time:</label>
                     <input type="time" id="time" />
                 </div>
-                <div className="seating-plan">
+                <div className="seating-plan"> */}
                     {/* Generate 100 seats dynamically */}
-                    {Array.from({ length: 100 }, (_, seat) => (
+                    {/* {Array.from({ length: 100 }, (_, seat) => (
                         <div key={`seat-${seat}`} className="seat available">
                             {seat + 1}
                         </div>
@@ -81,7 +81,7 @@ const DetailDisplay = () => {
                 <p id="total-price">Total Price: $0</p>
             </div>
 
-            <script src="/yScript.js"></script>
+            <script src="/yScript.js"></script> */}
         </>
     );
 };

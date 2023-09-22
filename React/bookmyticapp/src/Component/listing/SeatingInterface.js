@@ -1,56 +1,51 @@
-import React, { useState } from "react";
+
+// SeatingInterface.js
+import React, { useEffect } from "react";
 
 const SeatingInterface = () => {
-  // Define a state to manage selected seats
-  const [selectedSeats, setSelectedSeats] = useState([]);
+  useEffect(() => {
+    // JavaScript code for the seating interface
+    let seats = document.querySelector(".all-seats");
+    for (var i = 0; i < 59; i++) {
+      let randint = Math.floor(Math.random() * 2);
+      let booked = randint === 1 ? "booked" : "";
+      seats.insertAdjacentHTML(
+        "beforeend",
+        '<input type="checkbox" name="tickets" id="s' +
+          (i + 2) +
+          '" /><label for="s' +
+          (i + 2) +
+          '" class="seat ' +
+          booked +
+          '"></label>'
+      );
+    }
 
-  // Function to handle seat selection
-  const handleSeatSelect = (row, seat) => {
-    const newSeat = `${row}-${seat}`;
-    setSelectedSeats((prevSelectedSeats) => {
-      if (prevSelectedSeats.includes(newSeat)) {
-        // If the seat is already selected, remove it
-        return prevSelectedSeats.filter((s) => s !== newSeat);
-      } else {
-        // Otherwise, add it to the selected seats
-        return [...prevSelectedSeats, newSeat];
-      }
+    let tickets = seats.querySelectorAll("input");
+    tickets.forEach((ticket) => {
+      ticket.addEventListener("change", () => {
+        let amount = document.querySelector(".amount").innerHTML;
+        let count = document.querySelector(".count").innerHTML;
+        amount = Number(amount);
+        count = Number(count);
+
+        if (ticket.checked) {
+          count += 1;
+          amount += 200;
+        } else {
+          count -= 1;
+          amount -= 200;
+        }
+        document.querySelector(".amount").innerHTML = amount;
+        document.querySelector(".count").innerHTML = count;
+      });
     });
-  };
-
-  // Function to render the seating layout
-  const renderSeats = () => {
-    // Replace this with your theater's seating layout data
-    const rows = ["A", "B", "C"];
-    const seatsPerRow = 10;
-
-    return rows.map((row) => (
-      <div key={row} className="row">
-        {Array.from({ length: seatsPerRow }, (_, index) => (
-          <div
-            key={index}
-            className={`seat ${selectedSeats.includes(`${row}-${index + 1}`) ? "selected" : ""}`}
-            onClick={() => handleSeatSelect(row, index + 1)}
-          >
-            {`${row}-${index + 1}`}
-          </div>
-        ))}
-      </div>
-    ));
-  };
-
-  // Function to handle the booking process
-  const handleBooking = () => {
-    // Implement your booking logic here
-    console.log("Selected seats:", selectedSeats);
-    // Send the selected seats to your backend for booking
-  };
+  }, []);
 
   return (
-    <div>
-      <h2>Seating Interface</h2>
-      <div className="seating-layout">{renderSeats()}</div>
-      <button onClick={handleBooking}>Book Tickets</button>
+    // Your existing HTML code for the Seating Interface
+    <div className="center">
+      {/* ... Your HTML for the Seating Interface ... */}
     </div>
   );
 };
